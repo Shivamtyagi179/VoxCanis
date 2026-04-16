@@ -1,0 +1,54 @@
+------------------------> gpt
+
+dog_ai/  
+│
+├── data/
+│   ├── raw/                  # original audio files
+│   ├── processed/            # spectrogram / features
+│   └── labels.csv            # labels (VERY IMPORTANT)
+│
+├── models/                   # saved trained models
+│
+├── src/
+│   ├── preprocess.py         # audio → spectrogram
+│   ├── dataset.py            # dataset loader
+│   ├── model.py              # neural network
+│   ├── train.py              # training loop
+│   └── predict.py            # inference (test your model)
+│
+├── requirements.txt          # dependencies
+└── config.py                 # hyperparameters
+
+------------------------------> claude
+
+dataset/
+  raw/
+    session_001/
+      audio.wav          # 16kHz mono
+      video.mp4          # 30fps, 720p min
+      context.json       # environment metadata
+  processed/
+    session_001/
+      mel_spectrogram.npy
+      keypoints.npy      # (T, 17, 3) — time × joints × (x,y,conf)
+      flow.npy           # optical flow fields
+      context_vector.npy
+  labels/
+    session_001.json     # behavior annotations with timestamps
+  splits/
+    train.txt
+    val.txt
+    test.txt
+
+
+
+
+📦 2. Dependencies (install karni hain)
+
+Step 1: Python environment
+python -m venv venv
+source venv/bin/activate   # (Linux/Mac)
+venv\Scripts\activate      # (Windows)
+
+
+pip install -r requirements.txt
