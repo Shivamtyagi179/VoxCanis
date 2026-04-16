@@ -236,7 +236,12 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 
 For collaboration, research, or inquiries:
-**[your email / GitHub profile]**
+**
+shivamtyagi6226@gmail.com
+
+https://github.com/Shivamtyagi179
+
+**
 
 ---
 
@@ -249,5 +254,7 @@ This project is inspired by ongoing research in animal communication and AI-driv
 **VoxCanis — Understanding Dogs, Intelligently.**
 =======
 # VoxCanis
+
 VoxCanis is a multimodal AI system designed to analyze dog behavior using audio signals (barks, growls, whines) and eventually video + contextual inputs, and convert them into human-understandable insights.
+
 >>>>>>> 07b69a5d72813c9ecd5cf40c092356c09bbc7ac7
